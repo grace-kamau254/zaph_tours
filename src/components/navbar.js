@@ -3,9 +3,10 @@ import {link} from 'react-router-dom'
 fuction Navbar(){
     <>
 <nav className="navbar">
-    <div className="navbar-container">
-<link to="/a" className="navbar-logo" ></link>
-    </div>
+    <a href="/">Home</a>
+    <a href="/contact">Contact</a>
+    <a href="/destination"> Destination</a>
+    <a href="/trip">Trip.Types</a>
 </nav>
 
     </>

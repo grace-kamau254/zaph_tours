@@ -1,6 +1,6 @@
 import React,{useState}from 'react'
 import {link} from 'react-router-dom'
-fuction Navbar(){
+function Navbar(){
     <>
 <nav className="navbar">
     <a href="/">Home</a>
@@ -12,5 +12,6 @@ fuction Navbar(){
     </>
 }
 export default navbar:
+
 
 
